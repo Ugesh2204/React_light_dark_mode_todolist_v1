@@ -12,16 +12,53 @@ body {
   height: 100vh;
 }
 
-.globalcontainer{
-  background-image: url('http://localhost:3000/images/bg-desktop-light.jpg');
-  background-repeat: no-repeat;
+.globalcontainer {
   width:100%;
-  height: 300px;
 }
 
-.globalcontainer .container{
+.container{
   width:541px;
   margin: 0 auto;
-  background-color: #444;
   height: 100vh;
+}
+
+
+.light{
+  background-image: url('http://localhost:3000/images/bg-desktop-light.jpg');
+  background-repeat: no-repeat; 
+  width:100%;
+  height: 300px;
+  background-color: #ffffff;
+}
+
+.dark{
+ background-image: url('http://localhost:3000/images/bg-desktop-dark.jpg');
+ background-repeat: no-repeat; 
+ width:100%;
+ height: 300px;
+ background-color: #171823;
+}
+
+.header .header__inner{
+  padding-top: 126px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .header__inner h1 {
+  font-size: 40px;
+  color:#ffffff;
+  text-transform: uppercase;
+}
+
+.header .header__inner .switchbtn {
+  border:0px;
+  height: 26px;
+  width:26px;
+  background-color: transparent;
+}
+
+.header .header__inner .switchbtn:hover {
+  cursor: pointer;
 }
